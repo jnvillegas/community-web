@@ -57,7 +57,10 @@ const Wallpaper = () => {
             <section className={styles.hero}>
                 <div className={styles.parallax_bg}></div>
                 <div className={styles.hero_content}>
-                    <h1 className={styles.hero_title}>Sobre Nós</h1>
+                    <h1 className={styles.hero_title}>Wallpaper</h1>
+                    <p className={styles.hero_subtitle}>
+                        Sinta a jornada em cada clique
+                    </p>
                 </div>
                 <div className={styles.scroll_indicator}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none">
