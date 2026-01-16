@@ -104,6 +104,20 @@
     }
 }
 
+.hero_subtitle {
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    opacity: 0.9;
+    color: var(--white);
+}
+
+@media (min-width: 768px) {
+    .hero_subtitle {
+        font-size: 1.25rem;
+    }
+}
 
 .scroll_indicator {
     position: absolute;
