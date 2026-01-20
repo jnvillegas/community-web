@@ -1,6 +1,13 @@
+import { Link } from "react-router-dom";
 import styles from "./Wallpaper.module.css";
+import PATHROUTES from "../../helpers/PathRoutes";
 
 const Wallpaper = () => {
+
+    const scrollTop = () => {
+        window.scrollTo(0, 0);
+    }
+
     return (
         <footer className={styles.footer} id="contact">
             <div className={styles.container} id="wallpaper">
@@ -26,9 +33,9 @@ const Wallpaper = () => {
                                 className={styles.input}
                             /> */}
 
-                            <button className={styles.button}>
+                            <Link to={PATHROUTES.WALLPAPER} onClick={scrollTop} className={styles.button}>
                                 Obtenha Wallpapers
-                            </button>
+                            </Link>
                         </div>
 
                         <p className={styles.disclaimer}>
