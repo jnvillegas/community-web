@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import banner from "../../assets/header-banner.jpg";
+import banner from "../../assets/banner.jpg";
 
 const Header = () => {
     return (
